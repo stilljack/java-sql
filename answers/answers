@@ -38,6 +38,8 @@ VALUES ('shirez',
 	   '111',
 	   'Middle Earth')  
 	   
-	   
+	   UPDATE customers 
+SET postal_code =11122
+WHERE customer_id = 'shirez'
 	  
 	
