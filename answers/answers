@@ -1,0 +1,23 @@
+SELECT *
+FROM customers
+WHERE city = 'London'
+
+SELECT *
+FROM customers
+WHERE postal_code = '1010'
+
+SELECT phone
+FROM suppliers
+WHERE supplier_id = '11'
+
+SELECT *
+FROM suppliers
+WHERE length(company_name) > 20
+
+SELECT *
+FROM orders
+ORDER BY order_date DESC 
+
+SELECT *
+FROM customers
+WHERE upper(contact_title) like '%MARKET%'
